@@ -14,6 +14,10 @@ const style_spacing = {
   lineHeight: "2.5",
 }
 
+const styles_bold = {
+  fontWeight: "bold",
+}
+
 const styles_light = {
   fontWeight: "regular",
 }
@@ -59,22 +63,27 @@ class Index extends React.Component {
                   <h2>HyperSafety</h2>
                 </header>
                 <p style = {style_spacing}>
-                  The <a href = "https://github.com/ritviksharma4/HyperSafety_Frontend">
-                  HyperSafety Flutter Frontend</a> of 
-                  the <a href = "https://github.com/ViVek6301/HyperSafety_Backend">HyperSafety Backend</a> and 
-                  the <a href = "https://github.com/ritviksharma4/HyperSafety_Service">HyperSafety ML Service</a>, 
-                  an Employee Management Project in which images and details of Employees can be uploaded, 
-                  which would then be used to detect whether or not Employees are wearing a mask in the 
-                  Workplace. The HyperSafety Frontend can then be used by the Higher-ups to check which 
+                HyperSafety is an <span style = {styles_bold}>employee management app</span> in which images and details of Employees can be uploaded, 
+                  which would then be used to detect whether or not employees are wearing a mask in the 
+                  workplace. The HyperSafety Frontend can then be used by the Higher-ups to check which 
                   Employees have been caught without a mask.
+                  HyperSafety has 3 major components :
+                  <ul>
+                    <li>
+                      <a href = "https://github.com/ViVek6301/HyperSafety_Backend" 
+                      style = {styles_bold}>HyperSafety Backend</a>
+                    </li>
+                    <li>
+                      <a href = "https://github.com/ritviksharma4/HyperSafety_Service" 
+                      style = {styles_bold}>HyperSafety ML Service</a>
+                    </li>
+                    <li>
+                      <a href = "https://github.com/ritviksharma4/HyperSafety_Frontend" 
+                        style = {styles_bold}>
+                        HyperSafety Flutter Frontend</a>
+                    </li>
+                  </ul>        
                 </p>
-                <ul className="actions">
-                  <li>
-                    <Link to="#desc" className="button">
-                      Learn More
-                    </Link>
-                  </li>
-                </ul>
               </div>
               <span className="image">
                 <img src="https://imgur.com/V5o0nKJ.gif" alt="" />

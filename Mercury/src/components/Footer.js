@@ -9,7 +9,7 @@ const Footer = props => (
       I love to fiddle with technology I have never heard of before and build things that are intriguing.
       </p>
       <p>
-      I am an under-grad with great passion for my work.
+      I am a <b>University Rank #2</b> holder from SRM University with <b>B.Tech in CSC-AIML</b> and an aspiring Data Scientist with great passion for my work.
       <a href="https://ritvik-sharma.com/">On My Website,</a> you will find the list of projects that I have done.
       </p>
     </section>
